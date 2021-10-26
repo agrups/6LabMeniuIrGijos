@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if(id == R.id.Item1){
-            
+
                     Calendar currentTime = Calendar.getInstance();
                     hour = currentTime.get(Calendar.HOUR_OF_DAY);
                     minute = currentTime.get(Calendar.MINUTE);
