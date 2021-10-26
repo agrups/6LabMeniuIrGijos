@@ -2,4 +2,6 @@
     <string name="app_name">6Lab Meniu Ir Gijos</string>
     <string name="item1">Simbolių skaičius šiame tekste</string>
     <string name="item2">Simbolių išvedimas po vieną</string>
+    <string name="item3">Nustatyti skirtumą</string>
+    <string name="item4">Valandų skirtumas</string>
 </resources>
