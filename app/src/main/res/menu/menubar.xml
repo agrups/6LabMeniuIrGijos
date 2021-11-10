@@ -8,9 +8,15 @@
         android:visible="true"
         app:showAsAction="always" />
 
+<!--    <item
+        android:id="@+id/Item2"
+        android:title="@string/item4"
+        android:visible="false"
+        app:showAsAction="never" />-->
+
     <item
         android:id="@+id/Item1"
-        android:title="@string/item4"
+        android:title="@string/item5"
         app:showAsAction="never" />
 
 </menu>

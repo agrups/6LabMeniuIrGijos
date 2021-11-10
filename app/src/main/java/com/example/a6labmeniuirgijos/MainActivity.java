@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
 
-        if(id == R.id.Item1){
+        if(id == R.id.Item){
 
                     Calendar currentTime = Calendar.getInstance();
                     hour = currentTime.get(Calendar.HOUR_OF_DAY);
@@ -73,6 +73,9 @@ public class MainActivity extends AppCompatActivity {
                     mTimePicker.setTitle("Pasirinkite laika");
                     mTimePicker.show();
                 }
+        if(id == R.id.Item1){
+            finish();
+        }
 
         return super.onOptionsItemSelected(item);
     }
